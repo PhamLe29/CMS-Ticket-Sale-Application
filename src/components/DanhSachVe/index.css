@@ -1,0 +1,252 @@
+h2{
+    font-size: 36px;
+    line-height: 54px;
+
+}
+
+h4{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.DanhSach{
+    height: 87vh;
+    border-radius: 24px;
+    margin: 2vh 25px 46px 350px;
+    background-color: white;
+}
+
+.DanhSach .DanhSach-tk{
+    padding: 24px;
+}
+
+.DanhSach .DanhSach-tk .DanhSach-Ve {
+    display: flex;
+    padding-top: 10px;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.DanhSach .DanhSach-tk .search{
+    display: inline;
+    border-radius: 12px;
+    padding: .5em 1em .5em 0.5em;
+    margin-top: 33px;
+    background-color: #F7F7F8;
+    box-shadow: 0 1px 4px 0 rgba(255, 255, 255, 0);
+  }
+  .DanhSach .DanhSach-tk .DanhSach-Ve .search input{
+    font-size: 16px;
+    border: none;
+    background: none;
+    padding: 10px 16px;
+    width: 350px;
+    
+  }
+
+  input:focus{
+    outline: none;
+}
+
+.DanhSach-locVe{
+    margin-top: 27px;
+}
+
+.DanhSach-locVe1{
+    display: contents;
+    border-radius: 1px solid white;
+}
+
+button.LocVe, button.XuatFile {
+    margin-right: 7px;
+    padding: 15px;
+    background-color: white;
+    color: #FF993C;
+    border: 1px solid;
+    border-radius: 10px;
+    display: initial;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* table */
+table.table-danhsachve th {
+    padding: 20px 20px;
+    font-weight: 500;
+  }
+
+  table.table-danhsachve td {
+    padding: 15px 20px;
+  }
+  
+table.table-danhsachve {
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    
+}
+table.table-danhsachve thead tr:nth-child(2n + 1) {
+    background: #F1F4F8;
+    
+  }
+table.table-danhsachve tbody tr:nth-child(2n + 2) {
+    background: #F1F4F8;
+  }
+
+  .cangiua{
+      text-align: center;
+  }
+  .cantrai{
+    text-align: start;
+  }
+  .canphai{
+    text-align: end;
+ }
+
+ .TinhTrang-dasudung{
+    border: 1px solid #919DBA;
+    background-color: #EAF1F8;
+    border-radius: 5px;
+    padding: 4px 10px 4px 0;
+    width: fit-content;
+    color: #919DBA;
+ }
+
+ .TinhTrang-dasudung::before{
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 7.5px;
+  background-color: #919DBA;
+  text-align: center;
+  margin: 1px 5px;
+ }
+
+ .TinhTrang-chuasudung{
+    background-color: #DEF7E0;
+    border: 1px solid #03AC00;
+    border-radius: 5px;
+    padding: 4px 18px 4px 0;
+    width: fit-content;
+    color: #03AC00;
+ }
+
+ .TinhTrang-chuasudung::before{
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 7.5px;
+  background-color: #03AC00;
+  text-align: center;
+  margin: 1px 5px;
+ }
+ .TinhTrang-hethan{
+    background-color: #F8EBE8;
+    border: 1px solid #FD5959;
+    border-radius: 5px;
+    padding: 4px 18px 4px 0;
+    width: fit-content;
+    color: #FD5959;
+ }
+
+ .TinhTrang-hethan::before{
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 7.5px;
+  background-color: #FD5959;
+  text-align: center;
+  margin: 1px 5px;
+  
+ }
+
+/* Noti  */
+ #Background-black{
+  background: rgb(0 0 0 / 50%);
+  margin-left: -350px;
+  position: absolute;
+  margin-top: -75vh;
+  height: 100vh;
+  width: 99vw;
+  display: none;
+ }
+
+ .BangLocVe{
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  height: 450px;
+  width: 650px;
+  border-radius: 20px;
+  background: white;
+  transition: top left 0.1s;
+ }
+
+ .BangLocVe h2{
+   text-align: center;
+ }
+
+ .LocVe-Date {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 0 10px 40px;
+}
+
+.date2 {
+  padding-left: 140px;
+}
+.BangLocVe .h4-sd{
+  padding: 5px 0 10px 40px;
+}
+.LocVe-TinhTrang{
+  padding-left: 20px;
+  display: flex;
+}
+
+.LocVe-TinhTrang input[type="radio"] {
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+
+.LocVe-Cong, .LocVe-Cong1{
+  padding-left: 20px;
+  padding-right: 70px;
+}
+.LocVe-Cong2{
+  padding-left: 20px;
+}
+
+ .item-checkbox{
+  display: flex;
+  font-size: 20px;
+  padding-left: 20px;
+ }
+
+ .LocVe-All {
+  display: flex;
+}
+
+.item-checkbox input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+button.btn-LocVe1 {
+  margin-top: 30px;
+  margin-left: 37%;
+  width: 160px;
+  height: 55px;
+  background-color: white;
+  border: 1px solid #FF993C;
+  color: #FF993C;
+  border-radius: 10px;
+}
