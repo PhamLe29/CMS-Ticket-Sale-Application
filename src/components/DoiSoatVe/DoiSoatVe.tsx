@@ -1,6 +1,5 @@
 import React, { useEffect  } from "react";
 import "./index.css";
-
 import { SearchOutlined } from "@ant-design/icons";
 import TableDoiSoat from "./TableDoiSoat";
 
@@ -64,8 +63,7 @@ function DanhSachGoiVe(){
                 <h4>Đến ngày</h4>
                 <input type="date"/>
             </div>
-
-            
+           
             <div className="btn">
                 <button className="Loc">Lọc</button>
             </div>
@@ -73,7 +71,6 @@ function DanhSachGoiVe(){
             
        </div>
         
-
    )
 }
 

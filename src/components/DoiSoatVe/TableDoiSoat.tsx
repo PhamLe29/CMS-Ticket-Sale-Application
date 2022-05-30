@@ -28,11 +28,14 @@ function TableDoiSoat(){
         
     };
         
-
-
     const [todos, setTodos] = useState<Array<todo.Todo>>([]);
    return(
             <tbody>
+                {todos.length === 0 ? (
+                   <div className="container1">
+                   <span className="loader1"></span>
+                 </div>
+                ) : null}
                {todos.map((todos, index) => (
                    <tr>
                         <td className="cangiua">{index + 1}</td>
@@ -49,5 +52,3 @@ function TableDoiSoat(){
 }
 
 export default TableDoiSoat;
-
-
