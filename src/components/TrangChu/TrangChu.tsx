@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import "./index.css";
+import {TrangChu0} from "./TrangChu0";
 import TrangChu1 from "./TrangChu1";
 import TrangChu2 from "./TrangChu2";
 
 function TrangChu(){
     useEffect(() => {
         window.scrollTo({ top: 0, behavior: "smooth" });
-
       }, []);
 
    return(
@@ -18,7 +18,7 @@ function TrangChu(){
                     <input type="date" className="form-control calender-black" />
                 </div>
                 <div className="Home-tk-2">
-                
+                    <div style={{width:1700, height:100}}><TrangChu0 /></div><br />
                 </div>
                 <div style={{width:'400px' ,height:'30px',paddingTop:'300px' ,position:"absolute"}}>Tổng doanh thu theo tuần</div>
                 <div style={{paddingTop:'320px' ,position:"absolute"}}><b style={{fontSize:'35px'}}>500.000.000 </b> đồng </div>
@@ -38,12 +38,7 @@ function TrangChu(){
                         <div id='TrangChu2' > 
                         <TrangChu2 />
                         </div>
-                    </div>
-                    
-                    <div id='boder2'> 13568</div>
-                    <div id='boder1'> 56024</div>
-                    <div id='boder3'> 30256</div>
-                    <div id='boder4'> 28302</div>
+                    </div>                                
                 </div>
             </div>
         </div>
