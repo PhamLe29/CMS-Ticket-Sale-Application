@@ -2,14 +2,15 @@ import firebase from 'firebase/compat/app'
 import 'firebase/compat/firestore'
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBr74gUQWS7eJaud0G83u3qs6KRc-9yOd8",
-  authDomain: "react-firebase-auth-crud-37bed.firebaseapp.com",
-  databaseURL: "https://react-firebase-auth-crud-37bed-default-rtdb.firebaseio.com",
-  projectId: "react-firebase-auth-crud-37bed",
-  storageBucket: "react-firebase-auth-crud-37bed.appspot.com",
-  messagingSenderId: "105773279610",
-  appId: "1:105773279610:web:57bbbc6a2bec855aaa4ec3"
-});
+  apiKey: 'AIzaSyCEBomd1D1CtHxjicbG1fpJVqsWtgyBGAU',
+  authDomain: 'cms-ticket-sale-app.firebaseapp.com',
+  projectId: 'cms-ticket-sale-app',
+  storageBucket: 'cms-ticket-sale-app.appspot.com',
+  messagingSenderId: '1034841343956',
+  appId: '1:1034841343956:web:e1f3b23f52261da0a6b841',
+  measurementId: 'G-ZX0HQ7KT7S',
+})
 
+// Initialize Firebase
 const db = firebase.firestore()
 export default db

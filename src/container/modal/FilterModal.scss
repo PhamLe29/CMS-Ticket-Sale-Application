@@ -1,0 +1,67 @@
+.my-modal {
+  width: 636px;
+  max-width: 90vw;
+}
+
+.modal-header {
+  border-bottom: none !important;
+  .modal-title {
+    margin: 0 auto !important;
+  }
+}
+
+.modal-body {
+  padding: 0 1rem;
+  .filter-date {
+    display: flex;
+    gap: 20px;
+
+    .currentDay {
+      .day {
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  .filter-status {
+    margin-top: 20px;
+    .status {
+      margin-top: 9px;
+      .ant-radio-group.ant-radio-group-outline {
+        display: flex;
+        gap: 20px;
+      }
+    }
+  }
+
+  .filter-checkin {
+    margin-top: 20px;
+
+    .checkin {
+      .ant-checkbox-wrapper + .ant-checkbox-wrapper {
+        margin-left: 0 !important;
+      }
+    }
+  }
+}
+
+.modal-footer {
+  border-top: none !important;
+
+  button.btn.btn-primary {
+    margin: 0 auto;
+    background: white;
+    color: #ff993c;
+    border: 1px solid #ff993c;
+    width: 150px;
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1e0d03;
+  opacity: 0.8;
+}

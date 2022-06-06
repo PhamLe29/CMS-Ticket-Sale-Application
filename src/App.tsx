@@ -1,15 +1,30 @@
-import './App.css';
-import React from "react";
-import Navigation from './components/Navigation/Navigation';
-import DuongDanURL from './components/DuongDanURL/DuongDanURL';
-function App() {
-  
+import React from 'react'
+import Header from './component/Header'
+import { BrowserRouter } from 'react-router-dom'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+
+import './App.css'
+
+const App: React.FunctionComponent = () => {
   return (
-    <div>
-      <Navigation />
-      <DuongDanURL />
-    </div>
-  );
+    <BrowserRouter>
+      <div className='App'>
+        <Header />
+      </div>
+      <ToastContainer
+        position='top-right'
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
